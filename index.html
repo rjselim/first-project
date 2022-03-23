@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>selim</title>
-    
+
     <style>
-        h1{
-            font-size: 64px;
+        .cv {
             
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .item {
+            flex-basis: 50%;
+        }
+
+        .image-item {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .my-image {
+            width: 50%;
         }
     </style>
 </head>
+
 <body>
-    <h1>
-        My name is selim
-    </h1>
+
+    <div class="cv">
+        <div class="wrapper">
+            <div class="item">
+                <h1>Name: Selim Raza</h1>
+                <h3>Email: selim@gamil.com</h3>
+                <h3>Phone: 019000000</h3>
+                <h3>Kurikahunia</h3>
+            </div>
+            <div class="item image-item">
+                <img class="my-image" src="JPEG_20200616_142210_3990077200956216554.jpg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
